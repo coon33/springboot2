@@ -1,0 +1,19 @@
+1.日志logback(OK)
+2.拦截器(OK)
+3.监听器(OK)
+4.异常(OK)
+5.spring依赖(OK)
+6.mybatis依赖(OK)
+
+
+
+==========================================
+1.外部部署tomcat
+pom.xml修改
+    ·<packaging>war</packaging>
+    ·<dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-tomcat</artifactId>
+         <scope>provided</scope>
+     </dependency>
+
