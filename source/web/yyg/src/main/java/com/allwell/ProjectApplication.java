@@ -1,10 +1,6 @@
 package com.allwell;
 
-import java.util.Map;
-import java.util.Map.Entry;
-
-import org.coonchen.fk.utils.PropertiesUtil;
-import org.coonchen.fk.web.page.PageDirectiveFreeMarker;
+import org.coonchen.fk.web.view.freemarker.ViewResolverFreeMarker;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -32,24 +28,7 @@ public class ProjectApplication extends SpringBootServletInitializer {
 		return new CommandLineRunner() {
 			@Override
 			public void run(String... strings) throws Exception {
-				resolver.getAttributesMap().put("page", new PageDirectiveFreeMarker());	
-				String tagGroup = "freemarker.tag.";
-				Map<String,String> mapPro = PropertiesUtil.getPropertiesGroupByTag(tagGroup);
-				if(mapPro!=null && !mapPro.isEmpty()) {
-					for(Entry<String, String> entry : mapPro.entrySet()) {
-						try {
-							Class cla = Class.forName(entry.getValue());
-							resolver.getAttributesMap().put(entry.getKey().replace(tagGroup, ""), cla.newInstance());
-						} catch (ClassNotFoundException e) {
-							e.printStackTrace();
-						} catch (InstantiationException e) {
-							e.printStackTrace();
-						} catch (IllegalAccessException e) {
-							e.printStackTrace();
-						}
-					}
-				}
-				
+				ViewResolverFreeMarker.setFreeMarkerTag(resolver);
 			}
 		};
 	}
