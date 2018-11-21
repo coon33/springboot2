@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import org.coonchen.fk.utils.PropertiesUtil;
-import org.coonchen.fk.web.page.PageDirectiveFreeMarker;
+import org.coonchen.fk.web.page.freemarker.PageDirectiveFreeMarker;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,7 +27,7 @@ public class ProjectApplication extends SpringBootServletInitializer {
 		return builder.sources(ProjectApplication.class);
 	}
 
-	@Bean
+/*	@Bean
 	public CommandLineRunner customFreemarker(FreeMarkerViewResolver resolver) {
 		return new CommandLineRunner() {
 			@Override
@@ -52,5 +52,5 @@ public class ProjectApplication extends SpringBootServletInitializer {
 				
 			}
 		};
-	}
+	}*/
 }

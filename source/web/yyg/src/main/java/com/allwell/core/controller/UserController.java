@@ -7,6 +7,7 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import com.allwell.core.exception.OperationException;
 import org.coonchen.fk.annotation.ValidatorAnnotation;
 import org.coonchen.fk.controller.BasicController;
 import org.coonchen.fk.utils.MD5Util;
@@ -34,44 +35,66 @@ public class UserController extends BasicController {
 
 	@RequestMapping("admin/user/list.html")
 	public Object list(ModelMap modelMap) {
+		//取得页面参数
+		String nickmobile = paramString("nickmobile");
+		//取得分页参数
 		int pageon = paramInt("pageon", 1);
 		int rownum = paramInt("rownum", 10);
-		String nickmobile = paramString("nickmobile");
-
+		
+		//设置分页对象
 		PageBean pageBean = new PageBean(pageon, rownum);
-
+		//设置查询参数
 		Map<String, Object> mapParam = new HashMap<String, Object>();
 		mapParam.put("nickmobile", nickmobile);
 		mapParam.put("orderby", "addtime");
 		mapParam.put("sort", "desc");
+		
+		//执行查询操作
 		Map<String, Object> map = userService.selectPageList(mapParam, pageBean);
+		
+		//返回查询结果
 		modelMap.putAll(map);
+		
+		//跳转到页面
 		return "admin/user/list";
 	}
 	@RequestMapping("admin/user/toEdit.html")
 	public Object toEdit(ModelMap modelMap) {
+		//取得页面参数
 		int userid = paramInt("userid", 0);
+		
 		if (userid != 0) {
+			//执行查询操作
 			User user = userService.selectByPrimaryKey(userid);
+			//返回查询结果
 			modelMap.put("user", user);
 		}
+		//跳转到页面
 		return "admin/user/edit";
 	}
 
 	@RequestMapping("admin/user/toView.html")
 	public Object toView(ModelMap modelMap) {
+		//取得页面参数
 		int userid = paramInt("id", 0);
+		
 		if (userid != 0) {
+			//执行查询操作
 			User user = userService.selectByPrimaryKey(userid);
+			//返回查询结果
 			modelMap.put("user", user);
 		}
+		//跳转到页面
 		return "admin/user/view";
 	}
 
 	@RequestMapping("admin/user/toPwd.html")
 	public Object toPwd(ModelMap modelMap) {
+		//取得页面参数
 		int id = paramInt("id", 0);
+		//返回页面参数
 		modelMap.put("id", id);
+		//跳转到页面
 		return "admin/user/pwd";
 	}
 
@@ -176,7 +199,7 @@ public class UserController extends BasicController {
 		// 判断旧密码是否正确
 		User user = userService.selectByPrimaryKey(id);
 		if (user == null) {
-			throw new RuntimeException("未取到该用户信息");
+			throw new OperationException("未取到该用户信息");
 		}
 		String encodePassword = MD5Util.getMd5(MD5Util.getMd5(oldpwd) + user.getSecurekey());
 		if (!encodePassword.equals(user.getPassword())) {
