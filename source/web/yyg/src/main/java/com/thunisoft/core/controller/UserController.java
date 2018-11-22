@@ -32,7 +32,13 @@ public class UserController extends BasicController {
 	@Resource
 	private UserService userService;
 
-
+	/*
+	 * @Author coonchen
+	 * @Description 查询列表
+	 * @Date 2018/11/22
+	 * @Param [modelMap]
+	 * @return java.lang.Object
+	 **/
 	@RequestMapping("admin/user/list.html")
 	public Object list(ModelMap modelMap) {
 		//取得页面参数
