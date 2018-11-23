@@ -1,4 +1,4 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 import java.util.Random;
 import java.util.regex.Matcher;
@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 
 
-public class Tool {
+public class Tools {
 	
 	private static Pattern patt;
 	
@@ -44,7 +44,7 @@ public class Tool {
 				}
 			}
 		}
-		if (ConvertUtil.isEmpty(ip))
+		if (StringUtils.isEmpty(ip))
 			return request.getRemoteAddr();
 		Matcher mat = patt.matcher(ip);
 		return mat.matches() ? ip : request.getRemoteAddr();

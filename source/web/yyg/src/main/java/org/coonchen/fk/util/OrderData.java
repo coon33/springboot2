@@ -1,4 +1,4 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 import org.springframework.core.PriorityOrdered;
 

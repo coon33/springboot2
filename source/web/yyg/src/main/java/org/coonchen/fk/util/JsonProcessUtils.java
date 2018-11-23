@@ -1,4 +1,4 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
-public class JsonProcessUtil {
+public class JsonProcessUtils {
 	private static ObjectMapper mapper;
 
 	public static synchronized ObjectMapper getMapperInstance() {
@@ -25,7 +25,7 @@ public class JsonProcessUtil {
 	}
 
 	public static String beanToJson(Object obj) {
-		ObjectMapper mapper = JsonProcessUtil.getMapperInstance();
+		ObjectMapper mapper = JsonProcessUtils.getMapperInstance();
 		try {
 			mapper.configure(Feature.QUOTE_FIELD_NAMES,true);
 			return mapper.writeValueAsString(obj);
@@ -34,7 +34,7 @@ public class JsonProcessUtil {
 		}
 	}
 	public static void beanToJson(Writer out,Object obj) {
-		ObjectMapper mapper = JsonProcessUtil.getMapperInstance();
+		ObjectMapper mapper = JsonProcessUtils.getMapperInstance();
 		try {
 			mapper.configure(Feature.QUOTE_FIELD_NAMES,true);
 			mapper.writeValue(out, obj);
@@ -44,7 +44,7 @@ public class JsonProcessUtil {
 	
 	public static <T>T jsonToBean(String json, Class<T> valueType) {
 		T obj = null;
-		ObjectMapper mapper = JsonProcessUtil.getMapperInstance();
+		ObjectMapper mapper = JsonProcessUtils.getMapperInstance();
 		mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 		try {
 			obj = (T) mapper.readValue(json, valueType);
@@ -54,7 +54,7 @@ public class JsonProcessUtil {
 	}
 	public static <T> T jsonToBean(InputStream json, Class<T> valueType) {
 		T obj = null;
-		ObjectMapper mapper = JsonProcessUtil.getMapperInstance();
+		ObjectMapper mapper = JsonProcessUtils.getMapperInstance();
 		mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 		try {
 			obj = (T) mapper.readValue(json, valueType);
@@ -149,9 +149,9 @@ public class JsonProcessUtil {
 			user.setAge(12);
 			//user.setUsername("name");
 			PrintWriter out = new PrintWriter(System.out);
-			JsonProcessUtil.beanToJson(out,user);
+			JsonProcessUtils.beanToJson(out,user);
 			String s  =  "{\"username\":\"name\",\"age\":12}";
-			User user1= JsonProcessUtil.jsonToBean(s,User.class);
+			User user1= JsonProcessUtils.jsonToBean(s,User.class);
 			System.out.println(user1.getAge());
 			
 			

@@ -1,4 +1,4 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class PropertiesUtil {
+public class PropertiesUtils {
 	
 	public static String STR_FILENAME_CONFIG = "config";
 	private static Map<String,Properties> mapPros = new ConcurrentHashMap<>();
@@ -21,7 +21,7 @@ public class PropertiesUtil {
 		
 		FileInputStream fin = null;
 		try {
-			fin = new FileInputStream(PathUtil.getResourcePath(profile+".properties"));
+			fin = new FileInputStream(PathUtils.getResourcePath(profile+".properties"));
 		} catch (FileNotFoundException e1) {
 			fin=null;
 		}

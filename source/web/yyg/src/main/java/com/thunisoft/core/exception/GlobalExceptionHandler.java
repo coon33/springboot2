@@ -1,19 +1,19 @@
 package com.thunisoft.core.exception;
 
-import org.slf4j.LoggerFactory;
+import com.thunisoft.core.controller.UserController;
+import org.coonchen.fk.log.LogFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartException;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-
-
+	
+	private LogFactory logFactory  = LogFactory.getInstance(GlobalExceptionHandler.class);
 	/**
 	 * 全局异常捕捉处理
 	 * @param ex
@@ -22,8 +22,8 @@ public class GlobalExceptionHandler {
 	@ResponseBody
 	@ExceptionHandler(value = Exception.class)
 	public Map errorHandler(Exception ex) {
-
-		LoggerFactory.getLogger(GlobalExceptionHandler.class).error(ex.getMessage());
+		
+		logFactory.error(ex.getMessage());
 		
 		Map<String,Object> map = new HashMap<>();
 		map.put("success",false);
@@ -40,8 +40,8 @@ public class GlobalExceptionHandler {
 	@ResponseBody
 	@ExceptionHandler(value = OperationException.class)
 	public Map operationHandler(OperationException ex) {
-
-		LoggerFactory.getLogger(GlobalExceptionHandler.class).error(ex.getMsg());
+		
+		logFactory.error(ex.getMsg());
 
 		Map<String,Object> map = new HashMap<>();
 		map.put("success",false);
@@ -59,7 +59,7 @@ public class GlobalExceptionHandler {
 	@ExceptionHandler(MultipartException.class)
 	public Map multipartHandle(MultipartException ex) {
 		
-		LoggerFactory.getLogger(GlobalExceptionHandler.class).error(ex.getCause().getMessage());
+		logFactory.error(ex.getCause().getMessage());
 		
 		Map<String,Object> map = new HashMap<>();
 		map.put("success",false);

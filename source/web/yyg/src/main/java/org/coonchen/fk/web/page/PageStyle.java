@@ -3,7 +3,8 @@ package org.coonchen.fk.web.page;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.coonchen.fk.utils.ConvertUtil;
+import org.coonchen.fk.util.ConvertUtils;
+import org.coonchen.fk.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,7 +36,7 @@ public class PageStyle {
 	}
 	
 	public static void importPageStyle(String style,PageStyleBean pageStyleBean) {
-		if(mapPageStyle==null || ConvertUtil.isEmpty(style)) {
+		if(mapPageStyle==null || StringUtils.isEmpty(style)) {
 			logger.error("分页样式导入失败");
 			return;
 		}
@@ -75,21 +76,21 @@ public class PageStyle {
 		
 		if(currIndex>1) {
 			sbPage.append(pageStyleBean.getFirstPage().replace("~content_mark", url.replace("~p", "1")));
-			sbPage.append(pageStyleBean.getPreviousPage().replace("~content_mark", url.replace("~p", ConvertUtil.nullToStr(currIndex-1))));
+			sbPage.append(pageStyleBean.getPreviousPage().replace("~content_mark", url.replace("~p", ConvertUtils.nullToStr(currIndex-1))));
 		}
 		
 		for(int i = start;i<=end;i++) {
 			if(i==currIndex){
 				if(pageCount>1)
-					sbPage.append(pageStyleBean.getCurrentPage().replace("~p", ConvertUtil.nullToStr(currIndex)));
+					sbPage.append(pageStyleBean.getCurrentPage().replace("~p", ConvertUtils.nullToStr(currIndex)));
 			}
 			else
-				sbPage.append(pageStyleBean.getOtherPage().replace("~content_mark", url.replace("~p", ConvertUtil.nullToStr(i))).replace("~p", ConvertUtil.nullToStr(i)));
+				sbPage.append(pageStyleBean.getOtherPage().replace("~content_mark", url.replace("~p", ConvertUtils.nullToStr(i))).replace("~p", ConvertUtils.nullToStr(i)));
 		}
 		
 		if(pageCount>1 && currIndex<pageCount) {
-			sbPage.append(pageStyleBean.getNextPage().replace("~content_mark", url.replace("~p", ConvertUtil.nullToStr(currIndex+1))));
-			sbPage.append(pageStyleBean.getLastPage().replace("~content_mark", url.replace("~p", ConvertUtil.nullToStr(pageCount))));
+			sbPage.append(pageStyleBean.getNextPage().replace("~content_mark", url.replace("~p", ConvertUtils.nullToStr(currIndex+1))));
+			sbPage.append(pageStyleBean.getLastPage().replace("~content_mark", url.replace("~p", ConvertUtils.nullToStr(pageCount))));
 		}
 		sbPage.append(pageStyleBean.getEndPage()==null?"":pageStyleBean.getEndPage());
 		return sbPage.toString();

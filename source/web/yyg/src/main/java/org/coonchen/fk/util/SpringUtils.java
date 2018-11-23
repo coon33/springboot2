@@ -1,11 +1,11 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 import javax.servlet.ServletContext;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-public class SpringUtil {
+public class SpringUtils {
 	private static ApplicationContext applicationContext = null;
 
 	public static void initContext(ServletContext sc){

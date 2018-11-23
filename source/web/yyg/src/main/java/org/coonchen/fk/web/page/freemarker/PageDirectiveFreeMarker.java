@@ -11,7 +11,7 @@ import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 import freemarker.template.TemplateModelException;
-import org.coonchen.fk.utils.ConvertUtil;
+import org.coonchen.fk.util.ConvertUtils;
 import org.coonchen.fk.web.page.PageStyle;
 
 public class PageDirectiveFreeMarker implements TemplateDirectiveModel {
@@ -28,10 +28,10 @@ public class PageDirectiveFreeMarker implements TemplateDirectiveModel {
 				out = environment.getOut();
 				TemplateModel templateModel = environment.getVariable("pageBean");
 				StringModel pageBean = (StringModel) templateModel;
-				int currIndex = ConvertUtil.nullToInt(pageBean.get("currIndex"));
-				int pageCount = ConvertUtil.nullToInt(pageBean.get("pageCount"));
-				String url = ConvertUtil.nullToStr(map.get("url"));
-				String style = ConvertUtil.nullToStr(map.get("style"));
+				int currIndex = ConvertUtils.nullToInt(pageBean.get("currIndex"));
+				int pageCount = ConvertUtils.nullToInt(pageBean.get("pageCount"));
+				String url = ConvertUtils.nullToStr(map.get("url"));
+				String style = ConvertUtils.nullToStr(map.get("style"));
 				out.write(PageStyle.generatePageInfo(currIndex, pageCount, url, style));
 				templatedirectivebody.render(out);
 			}

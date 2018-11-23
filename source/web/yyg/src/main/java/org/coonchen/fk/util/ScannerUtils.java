@@ -1,4 +1,4 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 
 import java.io.File;
@@ -14,7 +14,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 
-public class ScannerUtil {
+public class ScannerUtils {
 	public static List<Class> getAllClassByInterface(Class c) {
 		List<Class> returnClassList = null;
 		if (c.isInterface()) {

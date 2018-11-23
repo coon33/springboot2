@@ -1,9 +1,9 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
-public class PathUtil {
+public class PathUtils {
 	
 	public static String getResourcePath(String properties){
 		try {

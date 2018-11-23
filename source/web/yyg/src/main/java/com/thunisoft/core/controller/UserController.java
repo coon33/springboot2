@@ -10,11 +10,10 @@ import javax.annotation.Resource;
 import com.thunisoft.core.exception.OperationException;
 import org.coonchen.fk.annotation.ValidatorAnnotation;
 import org.coonchen.fk.controller.BasicController;
-import org.coonchen.fk.utils.MD5Util;
-import org.coonchen.fk.utils.Tool;
+import org.coonchen.fk.log.LogFactory;
+import org.coonchen.fk.util.MD5Utils;
+import org.coonchen.fk.util.Tools;
 import org.coonchen.fk.web.page.PageBean;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +26,7 @@ import com.thunisoft.core.utils.CommonUtil;
 @Controller
 public class UserController extends BasicController {
 
-	private Logger logger  = LoggerFactory.getLogger(UserController.class);
+	private LogFactory logFactory  = LogFactory.getInstance(UserController.class);
 
 	@Resource
 	private UserService userService;
@@ -128,11 +127,11 @@ public class UserController extends BasicController {
 		String password = "123456";
 		user.setUserid(userid);
 		user.setNickname(nickname);
-		String ipaddress = Tool.getOnlineip(getRequest());
+		String ipaddress = Tools.getOnlineip(getRequest());
 		user.setIpaddress(ipaddress);
 		if (userid == 0) {
-			String securekey = Tool.getCharacterAndNumber(3);
-			String encodePassword = MD5Util.getMd5(MD5Util.getMd5(password) + securekey);
+			String securekey = Tools.getCharacterAndNumber(3);
+			String encodePassword = MD5Utils.getMd5(MD5Utils.getMd5(password) + securekey);
 			user.setSecurekey(securekey);
 			user.setPassword(encodePassword);
 			user.setAddtime(CommonUtil.sysdateInt()); // 注册时间
@@ -207,7 +206,7 @@ public class UserController extends BasicController {
 		if (user == null) {
 			throw new OperationException("未取到该用户信息");
 		}
-		String encodePassword = MD5Util.getMd5(MD5Util.getMd5(oldpwd) + user.getSecurekey());
+		String encodePassword = MD5Utils.getMd5(MD5Utils.getMd5(oldpwd) + user.getSecurekey());
 		if (!encodePassword.equals(user.getPassword())) {
 			map.put("success", false);
 			map.put("msg", "原密码输入错误");
@@ -216,7 +215,7 @@ public class UserController extends BasicController {
 
 		User record = new User();
 		record.setUserid(id);
-		String newEncodePassword = MD5Util.getMd5(MD5Util.getMd5(newpwd) + user.getSecurekey());
+		String newEncodePassword = MD5Utils.getMd5(MD5Utils.getMd5(newpwd) + user.getSecurekey());
 		record.setPassword(newEncodePassword);
 		int iR = userService.updateByPrimaryKeySelective(record);
 		map.put("success", true);

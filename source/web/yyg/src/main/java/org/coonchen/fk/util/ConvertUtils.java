@@ -1,14 +1,7 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
-public class ConvertUtil {
+public class ConvertUtils {
 
-	public static boolean isEmpty(Object obj){
-		return (obj==null || "".equals(obj));
-	}
-
-	public static boolean isNotEmpty(Object obj){
-		return !(obj==null || "".equals(obj));
-	}
 
 	public static String nullToStr(Object obj){
 		if(null==obj) return "";

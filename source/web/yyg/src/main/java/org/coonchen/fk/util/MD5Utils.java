@@ -1,11 +1,11 @@
-package org.coonchen.fk.utils;
+package org.coonchen.fk.util;
 
 
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class MD5Util {
+public class MD5Utils {
 	
 	private static final char[] hexDigits = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e',
 	'f' };
@@ -63,6 +63,6 @@ public class MD5Util {
 
 	public static void main(String[] args) {
 		// 测试
-		System.out.println(MD5Util.getMd5("hello"));
+		System.out.println(MD5Utils.getMd5("hello"));
 	}
 }

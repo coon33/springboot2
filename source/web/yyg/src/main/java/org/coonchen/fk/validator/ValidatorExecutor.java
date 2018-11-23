@@ -6,8 +6,9 @@ import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.coonchen.fk.utils.ConvertUtil;
-import org.coonchen.fk.utils.ScannerUtil;
+import org.coonchen.fk.util.ConvertUtils;
+import org.coonchen.fk.util.ScannerUtils;
+import org.coonchen.fk.util.StringUtils;
 import org.coonchen.fk.validator.impl.GroupRuleOperator;
 import org.coonchen.fk.validator.impl.RuleOperator;
 
@@ -18,7 +19,7 @@ public class ValidatorExecutor {
 	}
 	
 	public static void startup(Class clazz) {
-		List<Class> classes = ScannerUtil.getAllClassByClass(clazz);
+		List<Class> classes = ScannerUtils.getAllClassByClass(clazz);
 		if(classes!=null && !classes.isEmpty()) {
 			for (Class c : classes) {
 				try {
@@ -34,7 +35,7 @@ public class ValidatorExecutor {
 	
 	public static String validator(Object value,String explain,String rules) {
 		String error = null;
-		if(!ConvertUtil.isEmpty(rules)){
+		if(!StringUtils.isEmpty(rules)){
 			for(String rule : rules.split("&")){
 				RuleOperator ruleExecutor = (RuleOperator)RuleRecorder.mapStringOperator.get(rule);
 				if(ruleExecutor!=null){
