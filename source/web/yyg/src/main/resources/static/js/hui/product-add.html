@@ -586,7 +586,7 @@ $(function(){
             if ( file.getStatus() === 'invalid' ) {
                 showError( file.statusText );
             } else {
-                // @todo lazyload
+                //
                 $wrap.text( '预览中' );
                 uploader.makeThumb( file, function( error, src ) {
                     var img;

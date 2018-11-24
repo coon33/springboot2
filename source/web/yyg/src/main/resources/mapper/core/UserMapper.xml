@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.allwell.core.dao.UserMapper" >
-  <resultMap id="BaseResultMap" type="com.allwell.core.bean.User" >
+<mapper namespace="com.thunisoft.core.dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.thunisoft.core.bean.User" >
     <id column="userid" property="userid" jdbcType="INTEGER" />
     <result column="sugid" property="sugid" jdbcType="INTEGER" />
     <result column="nickname" property="nickname" jdbcType="VARCHAR" />
@@ -34,7 +34,7 @@
     logintime, ipaddress, gold, device, devicecode, currentversion, systemversion, authentication, 
     openid, channelid, loginsource, vu, apksource, contactmobile, realname, idcard, visable
   </sql>
-  <insert id="insertSelective" parameterType="com.allwell.core.bean.User" >
+  <insert id="insertSelective" parameterType="com.thunisoft.core.bean.User" >
     insert into sys_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="userid != null" >
@@ -197,7 +197,7 @@
       </if>
     </trim>
   </insert>
-  <select id="selectSelective" resultMap="BaseResultMap" parameterType="com.allwell.core.bean.User" >
+  <select id="selectSelective" resultMap="BaseResultMap" parameterType="com.thunisoft.core.bean.User" >
     select 
     <include refid="Base_Column_List" />
     from sys_user
@@ -288,7 +288,7 @@
     from sys_user
     where userid = #{userid,jdbcType=INTEGER}
   </select>
-  <update id="updateByPrimaryKeySelective" parameterType="com.allwell.core.bean.User" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.thunisoft.core.bean.User" >
     update sys_user
     <set >
       <if test="sugid != null" >

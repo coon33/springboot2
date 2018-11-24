@@ -13,8 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.coonchen.fk.annotation.RequestMappingAssist;
 import org.coonchen.fk.annotation.ValidatorAnnotation;
 import org.coonchen.fk.annotation.ValidatorPath;
-import org.coonchen.fk.utils.ConvertUtil;
-import org.coonchen.fk.utils.JsonProcessUtil;
+import org.coonchen.fk.util.ConvertUtils;
+import org.coonchen.fk.util.JsonProcessUtils;
+import org.coonchen.fk.util.StringUtils;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.method.HandlerMethod;
@@ -47,7 +48,7 @@ public class ValidatorInterceptor {
 				ResponseBody rb = hm.getMethodAnnotation(ResponseBody.class);
 				if (rb == null) {
 					ValidatorPath vPath = hm.getMethodAnnotation(ValidatorPath.class);
-					if (vPath == null || ConvertUtil.isEmpty(vPath.path())) {
+					if (vPath == null || StringUtils.isEmpty(vPath.path())) {
 						String uri = request.getRequestURI();
 						LoggerFactory.getLogger(ValidatorInterceptor.class)
 								.error("please [" + uri + "] set ValidatorPath input!");
@@ -69,7 +70,7 @@ public class ValidatorInterceptor {
 						Map<String, Object> mapErrorJson = new HashMap<String, Object>();
 						mapErrorJson.put("success", false);
 						mapErrorJson.put("valid_error", mapError);
-						out.print(JsonProcessUtil.beanToJson(mapErrorJson));
+						out.print(JsonProcessUtils.beanToJson(mapErrorJson));
 						out.flush();
 						out.close();
 					} catch (IOException e) {

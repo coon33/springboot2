@@ -6,7 +6,7 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 import org.coonchen.fk.interceptor.CollectInterceptor;
-import org.coonchen.fk.utils.SpringUtil;
+import org.coonchen.fk.util.SpringUtils;
 
 /**
 * @ClassName: ContextListener 
@@ -20,7 +20,7 @@ public class ContextListener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent servletContextEvent) {
 		System.out.println("listener start");
 		ServletContext servletContext = servletContextEvent.getServletContext();
-		SpringUtil.initContext(servletContext);//初始化上下文
+		SpringUtils.initContext(servletContext);//初始化上下文
 		CollectInterceptor.initInterceptor(servletContext);//收集拦截器
 		
 	}

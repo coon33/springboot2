@@ -5,8 +5,8 @@ import java.util.List;
 
 import javax.servlet.ServletContext;
 
-import org.coonchen.fk.utils.OrderData;
-import org.coonchen.fk.utils.SpringUtil;
+import org.coonchen.fk.util.OrderData;
+import org.coonchen.fk.util.SpringUtils;
 import org.springframework.core.OrderComparator;
 import org.springframework.core.annotation.Order;
 
@@ -25,11 +25,11 @@ public class CollectInterceptor {
 	}
 	
 	public static synchronized void initInterceptor(){
-		String[] handlerNames = SpringUtil.getContext().getBeanNamesForType(InterceptorInterface.class);
+		String[] handlerNames = SpringUtils.getContext().getBeanNamesForType(InterceptorInterface.class);
 		if(handlerNames!=null){
 			if(lstHandlerInterceptorAdapter==null) lstHandlerInterceptorAdapter = new ArrayList<OrderData<InterceptorInterface>>();
 			for(String handlerName : handlerNames){
-				InterceptorInterface handlerInterceptorAdapter = (InterceptorInterface)SpringUtil.getBean(handlerName);
+				InterceptorInterface handlerInterceptorAdapter = (InterceptorInterface) SpringUtils.getBean(handlerName);
 				OrderData<InterceptorInterface> orderData = new OrderData<InterceptorInterface>();
 				orderData.setData(handlerInterceptorAdapter);
 				Order order = handlerInterceptorAdapter.getClass().getAnnotation(Order.class);
