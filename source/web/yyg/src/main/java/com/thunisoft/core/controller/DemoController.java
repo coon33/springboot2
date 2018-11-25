@@ -70,7 +70,15 @@ public class DemoController extends BasicController {
 	public Object toFtpUpload() {
 		return "admin/demo/moreUpload";
 	}
-	
+
+	/*
+	* @Method ftpUpload
+	* @Description TODO 
+	* @Author coonchen
+	* @Date 2018/11/24 0024
+	* @Param [file]
+	* @return java.lang.Object
+	**/
 	@RequestMapping("admin/demo/ftpUpload.do")
 	@ResponseBody
 	public Object ftpUpload(@RequestParam("file") MultipartFile file) {

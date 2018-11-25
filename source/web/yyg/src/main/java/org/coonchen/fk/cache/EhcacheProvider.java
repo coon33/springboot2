@@ -15,7 +15,7 @@ import java.net.URL;
 /**
  * @ClassName EhcacheProvider
  * @Description ehcache
- * @Author coonchen
+ * @Author chenwei
  * @Date 2018/11/23
  */
 public class EhcacheProvider {

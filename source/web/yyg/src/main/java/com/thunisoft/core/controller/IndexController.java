@@ -25,9 +25,9 @@ public class IndexController {
      **/
     @RequestMapping("/index.html")
     public String index() {
-        //throw new OperationException(500,"我错了");
-        //int k = 5/0;
-
         return "admin/index";
     }
 }
+
+
+
