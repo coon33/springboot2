@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="772b7af9-358b-497a-89a2-a58d6b68fe03" name="Default" comment="添加日志记录功能" />
+    <list default="true" id="772b7af9-358b-497a-89a2-a58d6b68fe03" name="Default" comment="添加日志记录功能">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/coonchen_fk_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/coonchen_fk_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/coonchen_fk_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/coonchen_fk_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cache-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cache-config.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,358 +25,46 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="353" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-649564395">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="css" value="1" />
-          <entry key="html" value="7" />
-          <entry key="java" value="22" />
-          <entry key="properties" value="3" />
-          <entry key="readme" value="1" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="7" />
-          <entry key="JAVA" value="22" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="3" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="298" />
-          <entry key="java" value="529" />
-          <entry key="properties" value="25" />
-          <entry key="txt" value="24" />
-          <entry key="xml" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="298" />
-          <entry key="JAVA" value="529" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Properties" value="25" />
-          <entry key="XML" value="14" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="499897004">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="56" />
-          <entry key="java" value="54" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="56" />
-          <entry key="JAVA" value="54" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="5" />
-          <entry key="java" value="7" />
-          <entry key="properties" value="1" />
-          <entry key="readme" value="2" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="5" />
-          <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1412721470">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.36" value="3" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="5" />
-          <entry key="html" value="8" />
-          <entry key="java" value="108" />
-          <entry key="js" value="2" />
-          <entry key="mvnw" value="1" />
-          <entry key="properties" value="7" />
-          <entry key="readme" value="3" />
-          <entry key="xml" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="HTML" value="8" />
-          <entry key="JAVA" value="108" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="7" />
-          <entry key="XML" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="7" />
-          <entry key="html" value="8" />
-          <entry key="java" value="1433" />
-          <entry key="properties" value="51" />
-          <entry key="readme" value="30" />
-          <entry key="xml" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="8" />
-          <entry key="JAVA" value="1433" />
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Properties" value="51" />
-          <entry key="XML" value="27" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="122326464">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="3" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="16" />
-          <entry key="properties" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="Properties" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="951611481">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="16" />
-          <entry key="ft" value="113" />
-          <entry key="html" value="182" />
-          <entry key="java" value="2432" />
-          <entry key="properties" value="54" />
-          <entry key="readme" value="53" />
-          <entry key="xml" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="182" />
-          <entry key="JAVA" value="2432" />
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Properties" value="54" />
-          <entry key="VTL" value="113" />
-          <entry key="XML" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="11" />
-          <entry key="html" value="24" />
-          <entry key="java" value="70" />
-          <entry key="js" value="3" />
-          <entry key="mvnw" value="1" />
-          <entry key="properties" value="6" />
-          <entry key="readme" value="3" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="HTML" value="24" />
-          <entry key="JAVA" value="70" />
-          <entry key="JavaScript" value="3" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="coonchen_fk" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/EhcacheProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/constant/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/CacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/listener/ContextListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/log/LogFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/CollectInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/InterceptorExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/InterceptorInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/StartupInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -378,11 +72,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="212" column="23" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
+            <state relative-caret-position="-2744">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/LocalSessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/DistributedSessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -405,13 +127,11 @@
       <find>com.coonchen.core.entity.User</find>
       <find>selectPageListCount</find>
       <find>BaseResultMap</find>
-      <find>jquery.form.js</find>
-      <find>js/hui/lib/jquery.form/jquery.form.js</find>
-      <find>put</find>
+      <find>coonchen</find>
+      <find>@Author chenwei</find>
     </findStrings>
     <replaceStrings>
       <replace>com.allwell.core.bean.User</replace>
-      <replace>js/jquery.form.js</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -420,57 +140,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/hui/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/project/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/ProjectApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/core/config/WebMvcConfigurerCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/common.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/hui/static/h-ui/css/H-ui.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/core/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/config/WebMvcConfigurerCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/listener/SystemListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/listener/ContextListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/exception/SystemException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/bean/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageStyleBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageDirectiveFreeMarker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageStyle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/controller/BasicController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/constant/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/interceptor/AuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper.core/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/exception/OperationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/annotation/RequestMappingAssist.java" />
+        <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/CollectInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/InterceptorExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/runner/StartRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/view/ViewResolverFreeMarker.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/view/freemarker/ViewResolverFreeMarker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allwell/ProjectApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/demo/oneUpload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/demo/moreUpload.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/common.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/ProjectApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/demo/error.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/hui/product-add.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/hui/picture-add.html" />
-        <option value="$PROJECT_DIR$/mvnw" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/demo/ftpUpload.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/log/LogFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/core/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/FtpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/ConvertUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allwell/core/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/Tools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/validator/ValidatorExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/validator/ValidatorInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageStyle.java" />
-        <option value="$PROJECT_DIR$/readme" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/cache-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/constant/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/EhcacheProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/CacheManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/SessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/DistributedSessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/LocalSessionManager.java" />
       </list>
     </option>
   </component>
@@ -478,12 +198,6 @@
     <ignored-facets>
       <facet id="coonchen_fk/invalid/Spring" />
     </ignored-facets>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -504,22 +218,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1456" />
     <option name="height" value="876" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Angular</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -533,29 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -583,6 +260,141 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thunisoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thunisoft" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thunisoft" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thunisoft" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="coonchen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="coonchen" type="462c0819:PsiDirectoryNode" />
+              <item name="fk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="coonchen" type="462c0819:PsiDirectoryNode" />
+              <item name="fk" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="coonchen" type="462c0819:PsiDirectoryNode" />
+              <item name="fk" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,24 +411,24 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\coonchen\coonchen-framework\source\coonchen_fk\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\resources\templates\admin\include" />
+      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\resources\templates\admin\user" />
+      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\java\org\coonchen\fk\controller" />
+      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\java\org\coonchen\fk\web\page" />
+      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\java\com\allwell\core\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.core.interceptor" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\coonchen\springboot2\source\web\yyg\src\main\resources\templates\admin\demo" />
-      <recent name="E:\coonchen\springboot2\source\web\yyg\src\main\resources\static\js" />
-      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\resources\templates\admin\include" />
-      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\resources\templates\admin\user" />
-      <recent name="E:\coonchen\allwell-一元购\source\web\yyg\src\main\java\org\coonchen\fk\controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\coonchen\coonchen-framework\source\coonchen_fk\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -631,7 +443,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ProjectApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -645,14 +457,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coonchen_fk" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thunisoft.ProjectApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coonchen_fk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.allwell.ProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -661,6 +480,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProjectApplication" />
+      <item itemvalue="Spring Boot.ProjectApplication (1)" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -725,13 +548,11 @@
       <workItem from="1542457380728" duration="1327000" />
       <workItem from="1542715608158" duration="2751000" />
       <workItem from="1542718598379" duration="896000" />
-      <workItem from="1542720075193" duration="812000" />
-      <workItem from="1542850382334" duration="3559000" />
-      <workItem from="1542870720829" duration="14101000" />
-      <workItem from="1542936366962" duration="8615000" />
-      <workItem from="1542966952966" duration="2309000" />
-      <workItem from="1542976925174" duration="959000" />
-      <workItem from="1543194636555" duration="39000" />
+      <workItem from="1542720075193" duration="1020000" />
+      <workItem from="1542805070026" duration="1511000" />
+      <workItem from="1543025850033" duration="3697000" />
+      <workItem from="1543031796937" duration="4297000" />
+      <workItem from="1543150389061" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="添加日志记录功能">
       <created>1534470442089</created>
@@ -758,7 +579,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147744000" />
+    <option name="totallyTimeSpent" value="130548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,21 +591,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.22300771" />
-      <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.22879177" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.50236964" side_tool="true" weight="0.22879177" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Structure" order="0" sideWeight="0.50236964" side_tool="true" weight="0.22879177" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.50236964" side_tool="true" weight="0.22879177" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.28868195" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33647376" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" weight="0.654105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28263795" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" weight="0.7586207" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.39838493" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.24575163" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50321335" side_tool="true" weight="0.4306864" />
@@ -793,15 +615,17 @@
       <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.14460154" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.14398281" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,380 +634,232 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="readme" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加日志记录功能" />
     <MESSAGE value="添加登录页面" />
     <option name="LAST_COMMIT_MESSAGE" value="添加登录页面" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/allwell/core/service/impl/UserServiceImpl.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hui/static/h-ui/js/H-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="788" column="13" lean-forward="true" selection-start-line="788" selection-start-column="13" selection-end-line="788" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/user/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/common.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/demo/moreUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/ProjectApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/interceptor/AuthorizationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hui/picture-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7815">
-          <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hui/product-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8820">
-          <caret line="588" column="18" selection-start-line="588" selection-start-column="18" selection-end-line="588" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="3" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/demo/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="79" column="62" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/demo/ftpUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/demo/oneUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/JsonProcessUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar!/org/apache/commons/net/ftp/FTPClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="460" column="19" selection-start-line="460" selection-start-column="19" selection-end-line="460" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/ConvertUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/FtpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="599" column="14" lean-forward="true" selection-start-line="599" selection-start-column="14" selection-end-line="599" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/validator/ValidatorExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/validator/ValidatorInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/PageStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/exception/OperationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/PropertiesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/EhcacheProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/constant/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/listener/ContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/log/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/CollectInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/bean/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/InterceptorExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/InterceptorInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/StartupInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="170">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/dao/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/utils/CommonUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/utils/WebTool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/dao/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/exception/GlobalExceptionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/listener/SystemListener.java" />
+    <entry file="file://$PROJECT_DIR$/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/view/freemarker/FreeMarkerViewResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="442">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/view/freemarker/ViewResolverFreeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/interceptor/CollectInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/exception/OperationException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/web/page/freemarker/PageDirectiveFreeMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/interceptor/AuthorizationInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/interceptor/PermissionInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="31" column="125" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/constant/Constant.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/ProjectApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/config/WebMvcConfigurerCustom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allwell/core/runner/StartRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/ConvertUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/JsonProcessUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/MD5Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/OrderData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/PathUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/PropertiesUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/SpringUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/ScannerUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/utils/Tool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/listener/ContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cache-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/config/WebMvcConfigurerCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/util/FtpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="212" column="23" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
+        <state relative-caret-position="-2744">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thunisoft/core/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/cache/EhcacheProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/LocalSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/coonchen/fk/session/DistributedSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
